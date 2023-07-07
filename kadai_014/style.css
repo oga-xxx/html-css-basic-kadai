@@ -8,7 +8,14 @@ h1 {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 200%;
   letter-spacing: 1.2em;
-  text-shadow: 3px 1px 3px gray;
+  text-shadow: 0.3px 0.3px 0, 
+  0.3px -0.3px 0px,
+  -0.3px 0.3px 0,
+  -0.3px -0.3px 0px,
+  0.3px 0px 0px,
+  0px 0.3px 0px,
+  -0.3px 0px 0px,
+  0px -0.3px 0px;
   border-bottom: solid 3px rgb(115, 115, 114);
 }
 
